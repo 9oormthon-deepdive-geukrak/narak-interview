@@ -2,9 +2,13 @@
 
 구름톤 딥다이브 나樂퀴즈쇼 면접 스터디
 
+<br />
+
 ## 스터디
 
 [**prepare_frontend_interview**](https://github.com/junh0328/prepare_frontend_interview) Repository를 기준으로 스터디를 진행합니다!
+
+<br />
 
 ### 스터디 진행 방법
 1. 아래 질문 목록에서 순서대로 매일 3개씩 조사하고 정리합니다.
@@ -576,6 +580,8 @@
 - `Dijkstra`
 - `Dynamic Programming`
 </details>
+
+<br />
 
 ### Repository 사용 방법
 
