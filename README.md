@@ -19,7 +19,7 @@
 3. 대답하지 못했거나 부족한 질문에 대해 내용을 보충합니다.
 
 <details>
-<summary>접기/펼치기</summary>
+<summary>접기 / 펼치기</summary>
 
 ## 질문의 빈도
 
