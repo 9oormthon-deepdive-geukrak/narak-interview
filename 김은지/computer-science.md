@@ -223,3 +223,72 @@
 |  전송 계층  |      세그먼트(TCP), 데이터그램(UDP)       |
 | 인터넷 계층 |                   패킷                    |
 |  링크 계층  | 프레임(데이터 링크 계층), 비트(물리 계층) |
+
+## 로드밸런서란 무엇인가요?
+
+- ![로드밸런서](./image/image-1.png)
+- 서버 부하를 분산하는 기기
+- 하나의 서버에 트래픽이 몰려 부하를 감당하지 못하고 서버가 다운되는 문제 방지 가능
+- 스케일업, 스케일아웃 방식이 있음
+  ![스케일업, 스케일아웃](./image/image-2.png)
+  - 스케일업 - 기존 서버의 성능을 향상시키는 방법
+  - 스케일아웃 - 서버를 추가하여 시스템을 확장하는 방법
+
+### 로드밸런싱이란?
+
+- 여러 서버나 컴퓨터 자원에 작업을 고르게 분산하여 처리하는 것
+- 이점
+  - 애플리케이션 가용성
+    - 서버 문제를 자동 감지, 트래픽을 사용 가능한 서버로 리다이렉션 -> 가동 중지 없이 다음 태스크 수행 가능
+  - 애플리케이션 확장성
+    - 한 서버에 트래픽 병목 현상 방지, 필요한 경우 다른 서버를 추가하거나 제거할 수 있도록 트래픽 예측
+  - 애플리케이션 보안
+    - 공격자의 수백만 개 동시 요청으로 서버를 가득 채우는 DDoS 공격 처리에 유용
+  - 애플리케이션 성능
+    - 네트워크 지연 시간을 줄여 애플리케이션 성능을 향상시킴
+
+> 쿠버네티스 기능 중 하나로만 알고 있었는데, 범용적으로 쓰이는 개념이었다..!
+
+[참고 자료]
+
+- https://www.smileshark.kr/post/what-is-a-load-balancer-a-comprehensive-guide-to-aws-load-balancer
+- (더알아보기) https://aws.amazon.com/ko/what-is/load-balancing/
+
+## ARP란 무엇인가요?
+
+![ARP](./image/image-3.png)
+
+- Address Resolution Protocol
+- 동적 IP 주소를 LAN에서 MAC 주소(물리적 주소)에 연결하는 프로토콜
+- 네트워크에 연결된 호스트 또는 컴퓨터의 소프트웨어 주소(IP 주소)를 하드웨어 주소(MAC 주소)로 변환해야 하므로 ARP가 필요합니다. LAN은 해당 네트워크의 엔드포인트와 라우터를 포함하여 다양한 장치의 IP 주소를 MAC 주소에 매핑하는 테이블 또는 디렉토리를 유지합니다.
+- 유형
+  - Proxy ARP
+  - Gratuitous ARP
+  - Reverse ARP (RARP)
+  - Inverse ARP (IARP)
+
+[참고 자료]
+
+- https://www.fortinet.com/resources/cyberglossary/what-is-arp
+
+## MAC 주소란 무엇인가요?
+
+- Media Access Control
+- 48비트로 구성된 하드웨어 고유의 주소로, 네트워크 인터페이스 계층(/데이트 링크 계층)에서 사용
+- 두 개의 물리적으로 연결된 장치 간에 연결을 설정하고 종료하여 데이터 전송이 이루어질 수 있도록 함
+- MAC 동작
+  > 데이터가 네트워크를 통해 전송될 때는 패킷으로 나뉘어 개별적으로 전송됩니다. 각 패킷에는 발신자와 수신자의 MAC 주소가 모두 포함되어 있어 올바른 방향으로 전송될 수 있습니다. 패킷이 목적지에 도달하면 수신 장치는 목적지 MAC 주소를 확인하여 해당 패킷이 자신을 위한 것인지 확인합니다.\_레노버
+
+[참고 자료]
+
+- https://www.lenovo.com/kr/ko/glossary/what-is-mac/?orgRef=https%253A%252F%252Fwww.google.com%252F&srsltid=AfmBOoq_TYCyq1j6ue-vH8kWmY7mnO-JUD68Cyi7V5DKWZuCxRB4xr7b
+
+## NAT란 무엇인가요?
+
+- Network Address Translation
+- IP패킷의 TCP/UDP 포트 숫자와 소스 및 목적지의 IP 주소 등을 재기록하면서 라우터를 통해 네트워크 트래픽을 주고 받는 기술
+- 사설 네트워크(Private Network)에 속한 여러 개의 호스트가 하나의 공인 IP 주소를 사용하여 인터넷에 접속하기 위해 사용
+
+[참고 자료]
+
+- (더알아보기) https://inpa.tistory.com/entry/WEB-%F0%9F%8C%90-NAT-%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80
