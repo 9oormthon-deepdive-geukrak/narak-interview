@@ -363,7 +363,7 @@
       - HOL Blocking(Head Of Line Blocking) : 네트워크에서 같은 큐에 있는 패킷이 그 첫 번째 패킷에 의해 지연될 때 발생하는 성능 저하 현상
       - Header 구조의 중복
 
-![HTTP/1.0 vsHTTP/1.1](image-5.png)
+![HTTP/1.0 vsHTTP/1.1](./image/image-5.png)
 
 - HTTP/2.0
   - 멀티플렉싱
@@ -486,3 +486,61 @@
   - 하드웨어에 직접 접근해 메모리, CPU와 같은 자원을 사용할 수 있다.
 - 사용자 모드
   - 커널 모드의 자원에 접근할 수 없게 제한을 둔다.
+
+## 컴퓨터는 어떤 요소로 이루어져 있나요?
+
+![alt text](./image/image-6.ng)
+
+- CPU
+  : 컴퓨터의 동작을 제어(현재 상태값을 저장, 정보 해석)하고, 데이터를 처리하는 역할
+  - 프로세서라고도 부름
+- Main memory
+  : CPU가 접근하여 처리할 수 있는 기억 장치
+  - 데이터와 명령어 저장
+  - 흔히 RAM(Random Access Memory)
+- I/O
+  : 키보드, 마우스, 모니터 등 컴퓨터가 처리하기 위한 데이터를 읽고 그 결과물을 출력하는 장치
+- System Interconnection
+  : CPU, 메인 메모리, I/O 장치 간의 통신 메커니즘
+  - ex. 시스템 버스
+
+[참고 자료]
+
+- https://jaehyeon48.github.io/computer-architecture/computer-architecture-intro/
+- https://hongong.hanbit.co.kr/%EC%BB%B4%ED%93%A8%ED%84%B0%EC%9D%98-4%EA%B0%80%EC%A7%80-%ED%95%B5%EC%8B%AC-%EB%B6%80%ED%92%88cpu-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%B3%B4%EC%A1%B0%EA%B8%B0%EC%96%B5%EC%9E%A5/
+
+## CPU는 어떤 요소로 이루어져 있나요?
+
+![alt text](./image/image-7.png)
+
+- Control Unit - CPU의 동작을 제어
+
+  - 현재 상태값 저장
+  - 외부의 어떤 정보 해석
+
+- ALU(Arithmetic Logic Unit) - 실제 산술연산, 논리연산 수행
+- Registers - 데이터 저장 (CPU 내의 데이터를 한 클럭만에 읽고 씀)
+- CPU Interconnection - 제어 장치, ALU, 레지스터 간의 통신 메커니즘
+
+[참고 자료]
+
+- https://taegyunwoo.github.io/comput-struct/ComputerStructure_ControlUnit
+
+## CPU는 어떻게 동작하나요?
+
+[CPU 4가지 기능]
+![alt text](./image/image-8.png)
+
+- Data processing - 데이터 처리
+- Data storage - 데이터 저장
+- Data movement - 데이터 이동
+- Control - 제어
+
+| Movement                                                                                                              | Storage                                                                                   | Procession from/to storage                                                 | Procession from storage to i/o                        |
+| --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ----------------------------------------------------- |
+| ![alt text](./image/image-9.png)                                                                                      | ![alt text](./image/image-10.png)                                                         | ![alt text](./image/image-11.png)                                          | ![alt text](./image/image-12.png)                     |
+| 적절한 control을 통해서 데이터가 어떤 디바이스에서 또다른 디바이스 어떤 컴포넌트에서 또다른 컴포넌트로 이동이 되는 것 | 입출력으로부터 데이터를 변환해서 다시 저장하거나 저장된 데이터를 변환해서 다시 출력하거나 | storage에 있던 데이터를 적절히 control을 통해 읽어서 처리한 다음 다시 저장 | 특정 데이터가 movement에 의해서 storage에 저장이 된다 |
+
+[참고 자료]
+
+- https://jagdishkapadnis.wordpress.com/wp-content/uploads/2018/08/chapter1-introduction.pdf
