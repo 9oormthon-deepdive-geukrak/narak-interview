@@ -612,3 +612,8 @@
    ```
 
 4. 작성이 완료되면 main으로 Push 해주세요!
+
+## 🗂️ 기록물
+
+[![네트워크](https://github.com/user-attachments/assets/f3d124a3-cc41-4561-8de4-cf5ded245891)](https://gitmind.com/app/docs/mya27bhi)
+[![HTTP](https://github.com/user-attachments/assets/6e3caf7e-58ff-4358-8bcf-60292bf799b3)](https://gitmind.com/app/docs/m0bk1igl)
