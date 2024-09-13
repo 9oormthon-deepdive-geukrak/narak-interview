@@ -275,7 +275,7 @@
 
 ### URL은 뭔가요?
 
-![URL 구성](./images/mdn-url-all.png)
+![URL 구성](./images/mdn_url_all.png)
 
 - 웹에 게시된 리소스를 검색하기 위해 브라우저에서 사용하는 매커니즘
 - 웹에서 주어진 고유 리소스 주소
