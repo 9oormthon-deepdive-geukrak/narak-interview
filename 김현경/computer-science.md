@@ -690,3 +690,17 @@ HMACSHA256(
 
 - 장점: XSS 공격에 안전하며, 자동으로 요청마다 서버에 전송된다.
 - 단점: 쿠키는 CSRF(Cross-Site Request Forgery) 공격에 취약할 수 있다.
+
+## CORS가 뭔가요?
+
+- CORS(Cross-Origin Resource Sharing)
+- 도메인이 다른 서버끼리 리소스를 주고 받을 때 보안을 위해 설정된 정책
+- 즉, 서로 다른 도메인간에 자원을 공유하는 것을 의미
+- Origin이란 출처(URL)를 의미하며 `Protocol`, `Host`, `Port`를 합친 것으로 모두 동일해야 같은 출처라고 판단
+
+ex. 웹 사이트 A가 API 서버 B에서 데이터를 가져오려고 할 때, API 서버 B에서 CORS 허용이 되어있지 않으면웹 브라우저에서 API 접근이 거부될 수 있다.
+
+## CORS를 겪고 직접 해결해 본 경험이 있으면 말해주세요
+- Next.js에서 Cloudinary의 이미지에 접근하려고 할 때 CORS 오류가 발생하여 이미지가 로드되지 않음.
+- Cloudinary 서버가 요청한 출처를 허용하지 않기 때문에 브라우저에서 CORS 정책에 의해 요청이 차단됨.
+- next.config.js 파일에 CORS 설정을 추가하여 외부 리소스의 접근을 허용함.
