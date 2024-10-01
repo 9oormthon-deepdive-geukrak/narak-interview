@@ -909,3 +909,33 @@
 - 서버가 HTTP 헤더를 통해 스토리지 객체를 조작할 수 없음 (자바스크립트 내에서만 웹 스토리지 객체 조작 이루어짐)
 - 도메인·프로토콜·포트로 정의되는 오리진(origin)에 묶여있기 때문에 프로토콜과 서브 도메인이 다르면 데이터에 접근 불가
 
+## CORS가 뭔가요?
+
+- Cross-Origin Resource Sharing
+- 교차 출처 리소스 공유라는 의미로 웹 애플리케이션이 다른 출처의 리소스에 접근할 수 있도록 브라우저와 서버가 협력하는 방식
+- 보안을 위해 동일 출처 정책을 따르는 브라우저에서 교차 출처 요청을 제한하기 때문에 발생하는 문제
+
+## Origin이란?
+
+- URI에서 protocol(scheme), hostname, port를 포함하는 영역
+
+### 대처 방법
+
+- 서버 측에서 허용하는 Origin, 메서드, 헤더 등을 응답 헤더에 명시
+- Access-Control-Allow-Origin : 허용하는 출처 명시
+- Access-Control-Allow-Methods : 허용하는 HTTP 메서드 명시
+- Access-Control-Allow-Headers : 허용하는 HTTP 헤더 명시
+- Access-Control-Allow-Credentials : 인증 정보(쿠키, HTTP 인증)를 함께 보낼 수 있도록 허용하는 지 여부 명시
+
+\*서버 측에서는 요청 메서드가 GET, HEAD, POST가 아니거나, 특정 헤더나 인증 정보를 포함하는 요청에 대해서는 Preflight Request를 받음(실제 요청을 보내기 전에 OPTIONS 메서드로 요청을 보내서 서버의 요청 권한 허용 여부를 미리 확인하는 것) -> 서버는 Preflight Request에 대해서도 CORS 관련 헤더를 응답해야 함
+
+### 우회 방법
+
+- 프록시 서버 사용
+- JSONP(JSON with Padding) 기법
+
+## CORS를 겪고 직접 해결해 본 경험이 있으면 말해주세요
+
+- 보통 서버 측에서 허용 권한을 설정해줘야 했기 때문에 CORS 문제 발생 시 백엔드 개발자 분께 이슈 전달
+- 쿠키로 인증 처리 시 CORS 문제 해결을 위해 요청 보낼 때 withCredentials 옵션 허용해줌
+- Secure 설정되어 http인 개발 서버에서 통신 어려움 발생 -> 개발 서버 실행 시 HTTPS로 열리도록 처리
