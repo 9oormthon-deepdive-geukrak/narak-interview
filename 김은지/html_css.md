@@ -136,9 +136,43 @@ https://github.com/Step3-kakao-tech-campus/Team8_FE/pull/176
 
 ## 시멘틱 태그란 무엇인가 왜 사용하는가
 
+- 그 이름이 명확하게 그 목적과 내용을 설명하는 태그
+- ex. \<main>, \<aside>, \<section>, \<article>
+- 👍 웹 접근성 향상
+- 👍 SEO에 도움됨
+- 👍 시각 장애로 화면을 보기 어려운 사용자가 스크린 리더를 사용하여 페이지를 탐색하는 데 도움 됨
+- 👍 개발자들에게 명확한 의미를 전달함므로 코드의 가독성을 향상시키고 유지 보수를 용이하게 함
+
+[참고자료]
+
+- https://brunch.co.kr/@tigrisdesign/7
+
 ## 텍스트 관련 태그
 
+- 제목 (Headings) 태그
+  - h1 ~ h6
+- 글자 형태 (Text Formatting) 태그
+  - bold체 - b, strong (strong이 시멘틱 의미를 갖기 때문에 strong 권장)
+  - Italic체 - i, em (em이 시멘틱 의미를 갖기 때문에 em 권장)
+  - small
+  - mark
+  - del
+  - ins
+  - sub / sup
+- 본문 태그
+  - p
+  - br
+  - pre
+  - hr
+  - q(짧은 인용) / blockquote(긴 인용)
+
+[참고자료]
+
+- https://poiemaweb.com/html5-tag-text
+
 ## SEO란 무엇인가?
+
+- 검색엔진 최적화, 즉 검색엔진에서 찾기 쉽도록 사이트를 개선하는 프로세스
 
 ## Button 태그의 Default type은 무엇인가?
 
