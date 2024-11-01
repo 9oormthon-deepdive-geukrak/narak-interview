@@ -176,9 +176,38 @@ https://github.com/Step3-kakao-tech-campus/Team8_FE/pull/176
 
 ## Button 태그의 Default type은 무엇인가?
 
+- submit
+
+### Button 태그 type 종류
+
+- submit
+- reset
+- button
+
+[참고자료]
+
+- https://developer.mozilla.org/ko/docs/Web/HTML/Element/button#type
+
 ## Section 태그와 article 태그의 차이점
 
+- \<article> 독립적으로 보여줄 수 있는 문서나 글을 묶는 단위
+- \<section> 문서 내에서 관련된 주제로 묶은 영역 단위
+
+[참고자료]
+
+- https://brunch.co.kr/@tigrisdesign/7
+
 ## 크로스 브라우징이란 무엇인가요?
+
+- 브라우저 종류와 버전에 상관없이 웹 사이트가 동일하게 보이고 작동하게끔 하는 기법
+
+[참고자료]
+
+- https://thebook.io/006943/0014/
+
+### 브라우저 지원 여부 확인 방법
+
+- Can I use - 특정 언어의 지원 여부를 브라우저 버전별로 보여 주는 웹 사이트
 
 # 그 외
 
