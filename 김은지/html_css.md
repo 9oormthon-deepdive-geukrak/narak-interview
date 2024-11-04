@@ -236,7 +236,30 @@ https://github.com/Step3-kakao-tech-campus/Team8_FE/pull/176
 
 ## SVG 장점과 단점
 
+- 장점
+  - 관리해야할 이미지 Asset 개수와 용량이 줄어듦 (<- 여러 사이즈의 이미지를 따로 관리할 필요 X)
+  - 벡터 이미지의 텍스트는 계속 액세스할 수 있음 (SEO에도 도움이 됨)
+  - SVG는 이미지의 각 구성 요소가 CSS를 통해 스타일을 지정하거나 JavaScript를 통해 스크립팅할 수 있는 요소이기 때문에 스타일링/스크립팅에 적합
+- 단점
+  - 복잡한 SVG는 브라우저에서 상당한 처리 시간이 걸릴 수도 있음
+  - SVG는 만들려는 이미지의 종류에 따라 래스터 이미지보다 만들기가 더 어려울 수 있음
+
+[참고자료]
+
+- https://yozm.wishket.com/magazine/detail/2252/
+- https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web#what_is_svg
+
+### SVG란?
+
+- 벡터 이미지를 설명하기 위한 XML 기반 언어
+
 ## SVG 내부 도형에 대해 아는게 있나요?
+
+- line
+- rect
+- circle
+- path
+- polygon
 
 <!-- CSS -->
 
