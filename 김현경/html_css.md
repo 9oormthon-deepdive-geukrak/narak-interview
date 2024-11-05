@@ -279,3 +279,31 @@ User Interface 유저 인터페이스의 약자로 사용자와 시스템이 상
    - M: 시작점, L: 선 긋기, C: 곡선
 
 참고자료 - https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial/Basic_Shapes
+
+<!-- display 🔥 -->
+
+# display
+
+- display는 요소를 어떻게 보여줄지 결정한다.
+
+## block
+
+- 요소가 한 줄을 모두 차지하고 다음 요소는 줄바꿈 후 배치된다.
+- `width`, `height` 설정할 수 있음
+
+## inline
+
+- 요소가 한 줄을 모두 차지하지 않고 내용만큼의 너비만 차지한다.
+- 줄바꿈 하지 않으며 `width`, `height` 설정해도 적용 안됨
+
+## inline-block
+
+- inline과 같이 한 줄에 여러 요소가 배치될 수 있다.
+- inline와 다르게 `width`, `height` 값을 설정할 수 있다.
+- 즉, 요소가 차지하는 영역은 내용 크기에 맞춰지지만, 크기 조정이 가능하다.
+
+## none
+
+- 요소를 화면에서 숨긴다.
+- 공간을 차지하지 않고 숨김처리 함. 즉, DOM에서 제거된 것처럼 동작한다.
+- `visibility: hidden`과 다르다.
