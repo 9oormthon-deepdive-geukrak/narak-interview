@@ -11,6 +11,7 @@
 <br />
 
 ### 스터디 진행 방법
+
 1. 아래 질문 목록에서 순서대로 매일 3개씩 조사하고 정리합니다.
 
    - 꼬리 질문에 대비해서 철저하게 준비하기!
@@ -590,49 +591,134 @@
 
    ```md
    <!-- /[이름]/[카테고리].md-->
-   
+
    ## 질문 1
+
    조사한 내용
    정리
 
    ## 질문 2
+
    조사한 내용
    정리
 
    ## 질문 3
+
    조사한 내용
    정리
 
    <!-- 다음 날 이어서 정리합니다. -->
+
    ## 질문 4
+
    조사한 내용
    정리
-   
+
    ...
    ```
 
-4. 작성이 완료되면 main으로 Push 해주세요!
+3. 작성이 완료되면 main으로 Push 해주세요!
 
 ## 🗂️ 기록물
 
+### Computer Science
+
 <details>
-<summary>네트워크</summary>
+<summary>01 네트워크</summary>
    
-[![네트워크](https://github.com/user-attachments/assets/f3d124a3-cc41-4561-8de4-cf5ded245891)](https://gitmind.com/app/docs/mya27bhi)
+[![네트워크](https://github.com/user-attachments/assets/f3d124a3-cc41-4561-8de4-cf5ded245891)](https://www.figma.com/board/hJj7C62Tgs5j4p8J67I9R8/01-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC?t=eyGsolIU49yfnOSC-1)
 
 </details>
 
 <details>
-<summary>HTTP</summary>
+<summary>02 HTTP</summary>
    
-[![HTTP](https://github.com/user-attachments/assets/6e3caf7e-58ff-4358-8bcf-60292bf799b3)](https://gitmind.com/app/docs/m0bk1igl)
+[![HTTP](https://github.com/user-attachments/assets/6e3caf7e-58ff-4358-8bcf-60292bf799b3)](https://www.figma.com/board/MmlrKUgj12u2k4kt01IiXu/02-HTTP?t=eyGsolIU49yfnOSC-1)
 
 </details>
 
+<details>
+<summary>03 운영체제</summary>
+   
+[![운영체제](https://github.com/user-attachments/assets/ffec6d69-e16e-47f8-90d3-da749bd359e1)](https://www.figma.com/board/EyUoWTq6gS0c9zUpi8ZaVR/03-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C?t=eyGsolIU49yfnOSC-1)
+
+</details>
 
 <details>
-<summary>운영체제</summary>
+<summary>04 프로세스와 스레드</summary>
    
-[![운영체제](https://github.com/user-attachments/assets/ffec6d69-e16e-47f8-90d3-da749bd359e1)](https://gitmind.com/app/docs/mcna2cfi)
+[![프로세스와 스레드](https://github.com/user-attachments/assets/9f732f9e-8cd9-499a-9b40-afbc776d5aac)](https://www.figma.com/board/NQ5IK75GbiWy7QC6BTT1UX/04-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-%EC%8A%A4%EB%A0%88%EB%93%9C?t=eyGsolIU49yfnOSC-1)
+
+</details>
+
+<details>
+<summary>05 공유 자원, 임계 영역, 교착 상태</summary>
+   
+[![공유 자원, 임계 영역, 교착 상태](https://github.com/user-attachments/assets/9c0871be-43c8-40c6-af75-47541dadb356)](https://www.figma.com/board/c4Jk4QlnmAnmEdooBiBrXa/05-%EA%B3%B5%EC%9C%A0-%EC%9E%90%EC%9B%90%2C-%EC%9E%84%EA%B3%84-%EC%98%81%EC%97%AD%2C-%EA%B5%90%EC%B0%A9-%EC%83%81%ED%83%9C?t=eyGsolIU49yfnOSC-1)
+
+</details>
+
+<details>
+<summary>06 쿠키, 세션, JWT</summary>
+   
+[![쿠키, 세션, JWT](https://github.com/user-attachments/assets/392b9508-2286-4fc9-b4eb-b39db2bc7601)](https://www.figma.com/board/4EtURbX3yBEgwpfg2qhkUv/06-%EC%BF%A0%ED%82%A4%2C-%EC%84%B8%EC%85%98%2C-JWT?t=eyGsolIU49yfnOSC-1)
+
+</details>
+
+<details>
+<summary>07 CORS</summary>
+   
+[![CORS](https://github.com/user-attachments/assets/3dd83ddf-5519-4ce3-bafe-71263c49f898)](https://www.figma.com/board/pSS1Rc88nfuaWkSPvrjgaS/07-CORS?t=eyGsolIU49yfnOSC-1)
+
+</details>
+
+<details>
+<summary>08 개발방법론</summary>
+   
+[![개발방법론](https://github.com/user-attachments/assets/35e6dda9-3f86-40c5-85e3-8cae031674f7)](https://www.figma.com/board/cndYkEextKZOB5gp6f3NHa/08-%EA%B0%9C%EB%B0%9C%EB%B0%A9%EB%B2%95%EB%A1%A0?t=eyGsolIU49yfnOSC-1)
+
+</details>
+
+<details>
+<summary>09 캐시/CDN</summary>
+   
+[![캐시/CDN](https://github.com/user-attachments/assets/fe9429ce-b88c-4353-ba82-73f9b283782c)](https://www.figma.com/board/Ic0MDEMsPpzDhUVQrozuUa/09-%EC%BA%90%EC%8B%9C%2FCDN?t=eyGsolIU49yfnOSC-1)
+
+</details>
+
+<details>
+<summary>10 테스트</summary>
+   
+[![테스트](https://github.com/user-attachments/assets/1c04fd0a-4a0e-4a1b-9461-534daeb02bd1)](https://www.figma.com/board/7jTN4bZhp3qj8FC3I9sHaL/10-%ED%85%8C%EC%8A%A4%ED%8A%B8?t=eyGsolIU49yfnOSC-1)
+
+</details>
+
+<details>
+<summary>11 웹팩</summary>
+   
+[![웹팩](https://github.com/user-attachments/assets/bd78e0f0-6041-4c4c-bd74-20374b1b7966)](https://github.com/user-attachments/assets/3c2dc21b-6229-40fd-98f1-ccab66b92493)
+
+</details>
+
+<details>
+<summary>12 타입과 인터페이스</summary>
+   
+[![타입과 인터페이스](https://github.com/user-attachments/assets/e7230fa2-8856-4887-9f4c-a00981fce929)](https://www.figma.com/board/lyvaf1fkqFrcO7KH51lLjz/12-%ED%83%80%EC%9E%85%EA%B3%BC-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4?t=eyGsolIU49yfnOSC-1)
+
+</details>
+
+### HTML
+
+<details>
+<summary>13 DOCTYPE</summary>
+   
+[![DOCTYPE](https://github.com/user-attachments/assets/f449ed79-69a4-4413-b946-61a2b4d581df)](https://github.com/user-attachments/assets/e98e2c07-4c92-489b-b7f6-3339832cc85d)
+
+</details>
+
+<details>
+<summary>14 웹 표준 및 웹 접근성</summary>
+   
+[![웹 표준 및 웹 접근성](https://github.com/user-attachments/assets/1e388bd3-3af7-4723-bf4e-513a2022ada9)](https://www.figma.com/board/gaoV83XhuXeGXfk89MZ6p7/14-%EC%9B%B9-%ED%91%9C%EC%A4%80-%EB%B0%8F-%EC%9B%B9-%EC%A0%91%EA%B7%BC%EC%84%B1?t=eyGsolIU49yfnOSC-1)
 
 </details>
