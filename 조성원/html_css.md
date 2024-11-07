@@ -225,3 +225,60 @@
 - `polyline`: 연결된 직선 그룹
 - `polygon`: 다각형
 - `path`: 다른 모든 종류의 모양, 베지어 곡선, 2차원 곡선 등
+
+&nbsp;
+
+---
+
+&nbsp;
+
+# CSS
+
+## display
+
+- 요소를 어떻게 보여줄지 레이아웃을 결정하는 속성으로 기본값은 `inline`이다.
+- 모든 요소에서 사용할 수 있는 속성
+
+> **Values**
+>
+> - `block`: 가로 영역을 모두 차지하여 항상 줄 바꿈이 되는 요소
+>   - `width`와 `height`를 지정할 수 있다.
+> - `inline`: 줄 바꿈이 되지 않으며, `width`와 `height`, 여백을 지정할 수 없다.
+> - `inline-block`: `width`와 `height`을 지정할 수 있는 `inline` 요소
+> - `none`: 렌더링되지 않는 요소
+>   - CSS에서 `visibility: hidden`와 달리 영역을 차지하지 않는다.
+
+&nbsp;
+
+## position에 대하여 설명해보세요.
+
+- HTML 문서에서 요소가 배치되는 방식을 결정하는 속성으로 기본값은 `static`이다.
+- `top`, `right`, `bottom`, `left` 속성이 요소를 배치할 최종 위치를 결정한다.
+
+> **Values**
+>
+> - `static`: 문서 흐름에 따라 배치
+> - `relative`: 문서 흐름에 따라 배치하며, 자기 자신을 기준으로 `top`, `right`, `bottom`, `left`의 값에 따라 오프셋을 적용한다.
+> - `fixed`: 요소를 일반적인 흐름에서 제거하고, 페이지 레이아웃에 공간을 배정하지 않는다.
+>   - 뷰포트의 초기 컨테이닝 블록을 기준으로 배치한다.
+>   - 최종 위치는 `top`, `right`, `bottom`, `left` 값이 지정한다.
+> - `absolute`: 요소를 일반적인 흐름에서 제거하고, 페이지 레이아웃에 공간을 배정하지 않는다.
+>   - 가장 가까운 위치 지정 조상 요소(`relative`)에 대해 상대적으로 배치한다.
+>   - 최종 위치는 `top`, `right`, `bottom`, `left` 값이 지정한다.
+
+&nbsp;
+
+## float는 어떻게 작동하는가
+
+- `float`: 텍스트와 이미지를 적절하게 배치하는 도구 (Microsoft의 Word, 한글과컴퓨터의 한글)
+
+![float](./images/float.png)
+
+1. `float`를 적용하면 일반적인 흐름에서 요소가 제거된다.
+   - `absolute`와는 다르게 일반적인 흐름에 있는 요소는 자동으로 영역이 재지정된다.
+2. `float`를 사용하면 외부의 BFC가 `float` 요소의 `left`, `top` 값의 정보를 저장한다.
+3. **BFC**(Block formatting context)는 `float`와 연관된 `block` 요소 내부의 `inline` 컨텐츠를 파악한 뒤, 저장해두었던 `float` 요소의 `left`, `top` 값에 맞게 **IFC**(Inline formatting contexts)로 변경하여 내부 컨텐츠에 배치한다.
+
+> [!TIP]  
+> **BFC? IFC?**  
+> [Normal Flow? BFC? IFC?](https://jooonho.dev/web/2021-07-04-nomalflow-bfc-ifc/)
