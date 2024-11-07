@@ -337,6 +337,22 @@ https://github.com/Step3-kakao-tech-campus/Team8_FE/pull/176
 
 # 이미지 태그를 스타일로 대체하는 법 🔥
 
+- background-image 사용
+
+### 어떤 상황에서 사용하면 좋을까?
+
+- HTML \<img>
+  - 이미지가 웹의 콘텐츠와 관련된 주요한 요소일 때
+  - 검색 엔진에 이미지의 문맥 정보 제공
+- CSS background-image
+  - 이미지가 웹의 부가적인 요소(ex. 디자인)로만 쓰일 때
+  - 이미지 위에 텍스트가 들어가는 경우
+  - 배경 전체 단위로 웹에 삽입하는 경우
+
+[참고자료]
+
+- https://velog.io/@mikio/HTMLCSS%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%97%90-%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC-%EB%84%A3%EB%8A%94-%EB%91%90%EA%B0%80%EC%A7%80-%EB%B0%A9%EB%B2%95
+
 # 반응형 웹의 3요소 🔥🔥
 
 # CSS selector가 어떠한 원리로 동작하나요? 🔥
