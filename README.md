@@ -722,3 +722,10 @@
 [![웹 표준 및 웹 접근성](https://github.com/user-attachments/assets/1e388bd3-3af7-4723-bf4e-513a2022ada9)](https://www.figma.com/board/gaoV83XhuXeGXfk89MZ6p7/14-%EC%9B%B9-%ED%91%9C%EC%A4%80-%EB%B0%8F-%EC%9B%B9-%EC%A0%91%EA%B7%BC%EC%84%B1?t=eyGsolIU49yfnOSC-1)
 
 </details>
+
+<details>
+<summary>15 그 외</summary>
+   
+[![그 외](https://github.com/user-attachments/assets/6c9095d5-c3c4-43b4-8b1d-5acf99dbc90f)](https://www.figma.com/board/ech0JHBCKy9XSeovjA3K6z/15-%EA%B7%B8-%EC%99%B8?node-id=12014-55&node-type=section)
+
+</details>
